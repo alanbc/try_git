@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <ModulePrefs title="Dinho GadGets" />
+  <Content type="html">
+    <![CDATA[
+    <div style="text-align:center">
+      <a
+          id="Riggs" title="My Photo Album" target="_blank"
+          href="http://picasaweb.google.com/doc.examples/ShelfBoy">
+        <img border="0" alt="Photo" width="100%" height="100%" src="http://doc.examples.googlepages.com/Riggsie-OP.jpg"
+        title="Click Here.">
+        </a>
+    </div>
+    ]]>
+  </Content>
+</Module>
