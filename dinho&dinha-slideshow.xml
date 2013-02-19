@@ -2,8 +2,8 @@
 <Module>
 <ModulePrefs title="Slideshow from Picasa Media RSS Feed. Display just pictures"
 title_url="http://sites.google.com/site/annuairevin/"
-height="100"
-width="120"
+height="300"
+width="220"
 scrolling="false"
 directory_title="Media RSS Feed Slideshow. Slideshow from Picasa. Display just pictures."
 description="Media RSS Feed Slideshow. Simple Slideshow (without title of Feed and without title of pictures), without border. Can display the original picture. Can define display and transition time. Display jpg, gif and png pictures. Random order available."
@@ -24,8 +24,8 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 
 <UserPref name="FEED" display_name="Feed to display" required="true" default_value="http://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&amp;kind=photo&amp;hl=en" />
 
-<UserPref name="PWH" display_name="Width of pictures" required="true" default_value="100" />
-<UserPref name="PHT" display_name="Height of pictures" required="true" default_value="100" />
+<UserPref name="PWH" display_name="Width of pictures" required="true" default_value="280" />
+<UserPref name="PHT" display_name="Height of pictures" required="true" default_value="190" />
 
 <UserPref name="DTime" display_name="Display Time (ms)" required="false" />
 <UserPref name="TTime" display_name="Transition Time (ms)" required="false" />
@@ -33,8 +33,8 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 <UserPref name="CLP" display_name="Open Picture on Clic (Yes - No)" required="false" />
 <UserPref name="NAB" display_name="Display Navigation Bar (Yes - No)" required="false" />
   
-<UserPref name="SCOL" display_name="Background of Slide" required="true" default_value="#000000" />
-<UserPref name="CCOL" display_name="Background of Container" required="true" default_value="#000000" />
+<UserPref name="SCOL" display_name="Background of Slide" required="true" default_value="#c3d9ff" />
+<UserPref name="CCOL" display_name="Background of Container" required="true" default_value="#d1dae3" />
 
 <Content type="html"><![CDATA[
 <script src="https://www.google.com/jsapi" type="text/javascript"></script>
@@ -49,23 +49,16 @@ background-color: __UP_CCOL__;
 
 #slide_box
 {
-width:_ _UP_PWH__px;
+width: __UP_PWH__px;
 height: __UP_PHT__px;
 margin: 0;
 background-color: __UP_SCOL__;
 padding: 0px;
 }
 
-#slide_box a
+#slide_box a img
 {
 border: 0;
-}
-
-#slide_box img
-{
-border: 0;
-width: 100%;
-height: 100%;
 }
 
 #feed_title
@@ -216,7 +209,7 @@ _IG_Analytics("UA-442758-35", "/gg_slide");
 
 </script>
 
-<center><div id="feed_title" width="100%" height="100%"></div><div id="slide_box" width="100%" height="100%">Loading pictures...</div></center>
+<center><div id="feed_title"></div><div id="slide_box">Loading pictures...</div></center>
 
 ]]></Content>
 </Module>
