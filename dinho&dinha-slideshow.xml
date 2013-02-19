@@ -37,7 +37,8 @@
                 fullControlPanel: false,
                 numResults: 200,
                 fullControlPanelSmallIcons: false,
-                pauseOnHover: false
+                pauseOnHover: false,
+                scaleImages:true
                 /*transitionCallback: myTransitionHandler*/
             };
             var ss = new GFslideShow(feed_input, "slideshow", options)
