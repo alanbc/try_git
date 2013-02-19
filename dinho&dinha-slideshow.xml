@@ -22,7 +22,7 @@ author_quote="A chief is a man who assumes responsibility. He says "I was beaten
 
 </ModulePrefs>
 
-<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.com/data/feed/base/user/101841940641544645465/albumid/5832969112428087137?alt=rss&kind=photo&authkey=Gv1sRgCNqE9_nJh-iikQE&hl=pt_BR" />
+<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&kind=photo&hl=en" />
 
 <UserPref name="PWH" display_name="Width of pictures" required="true" default_value="280" />
 <UserPref name="PHT" display_name="Height of pictures" required="true" default_value="190" />
