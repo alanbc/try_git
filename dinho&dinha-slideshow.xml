@@ -143,7 +143,9 @@ numResults: 1000,
 linkTarget: clp,
 feedLoadCallback: FeedTitle,
 thumbnailUrlResolver: UrlResolver, 
-transitionCallback: TransitionHandler
+transitionCallback: TransitionHandler,
+width:100px,
+height:120px
 };
 
 
