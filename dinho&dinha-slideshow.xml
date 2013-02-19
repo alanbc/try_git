@@ -16,13 +16,13 @@ author_location="Rolle Switzerland"
 author_link="http://www.liens-du-vin.ch"
 author_photo="http://www.liens-du-vin.ch/_pic02/gadget-author-photo.png"
 author_aboutme="An Engineer who likes to develop for the Net and tastes wines"
-author_quote="A chief is a man who assumes responsibility. He says "I was beaten" he does not say "My men were beaten" - Antoine de Saint-Exupery">
+author_quote="A chief is a man who assumes responsibility. He says &quot;I was beaten&quot; he does not say &quot;My men were beaten&quot; - Antoine de Saint-Exupery">
 
 <Require feature="analytics" />
 
 </ModulePrefs>
 
-<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&kind=photo&hl=en" />
+<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&amp;kind=photo&amp;hl=en" />
 
 <UserPref name="PWH" display_name="Width of pictures" required="true" default_value="280" />
 <UserPref name="PHT" display_name="Height of pictures" required="true" default_value="190" />
