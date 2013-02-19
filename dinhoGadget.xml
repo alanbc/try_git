@@ -3,15 +3,11 @@
   <ModulePrefs title="Dinho GadGets" />
   <Content type="html">
     <![CDATA[
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
-    <div>
-        <label>
-            Name:</label>
-        <input type="text" ng-model="yourName" placeholder="Enter a name here">
-        <hr>
-        <h1>
-            Hello {{yourName}}!</h1>
-    </div>    
+       Hello, <span id="nameSpan"> Name goes here </span>
+       <script type="text/javascript">
+          var prefs = new gadgets.Prefs();
+          document.getElementById('nameSpan').innerHTML = prefs.getString("Name");
+      </script>
     ]]>
   </Content>
 </Module>
