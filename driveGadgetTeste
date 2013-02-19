@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <ModulePrefs title="hello world example" />
+  <Content type="html">
+    <![CDATA[
+    <script type="text/javascript">
+    function pegarTodosArquivoDrive(){
+      // Create a new document with the title 'Hello World'
+      var query = "*";
+      var docs = DocsList.find(query);
+      //var docs = DocsList.getAllFiles();
+  
+      // Get the email address of the active user - that's you
+      var emailAddress = Session.getActiveUser().getEmail();
+      var nomeDocumentos="";
+  
+      //pega o nome de todos documentos
+      /*for(var documento in docs){
+        nomeDocumentos += documento.getName() + "\n";
+      }*/
+      for(var i = 0; i < docs.length; i++){
+        //nomeDocumentos += docs[i].getName() + "\n";
+        nomeDocumentos += docs[i].getName() + "<br />";
+      }
+      
+      return nomeDocumentos;
+      
+      /*
+      // Send yourself an email with a link to the document
+      GmailApp.sendEmail(emailAddress,
+                         'Hello from my first Google Apps Script!',
+                         'Arquivos no Google Drive:\n' +
+                         nomeDocumentos);
+                         */
+    }
+
+    document.getElementById("teste").innerHTML=pegarTodosArquivoDrive();
+    </script>
+    
+    <div id="teste">Texto</div>
+    ]]>    
+  </Content>
+</Module>
