@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
   <ModulePrefs title="Dinho GadGets" />
+  <UserPref name="Name" display_name="Your Name" default_value="World" />
   <Content type="html">
     <![CDATA[
        Hello, <span id="nameSpan"> Name goes here </span>
