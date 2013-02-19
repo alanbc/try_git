@@ -209,7 +209,7 @@ _IG_Analytics("UA-442758-35", "/gg_slide");
 
 </script>
 
-<center><div id="feed_title"></div><div id="slide_box">Loading pictures...</div></center>
+<center><div id="feed_title" width="100%" height="100%"></div><div id="slide_box">Loading pictures...</div></center>
 
 ]]></Content>
 </Module>
