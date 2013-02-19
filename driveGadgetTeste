@@ -5,6 +5,8 @@
     <![CDATA[
     <script type="text/javascript">
     function pegarTodosArquivoDrive(){
+      alert("teste");
+
       // Create a new document with the title 'Hello World'
       var query = "*";
       var docs = DocsList.find(query);
