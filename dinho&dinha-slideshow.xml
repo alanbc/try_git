@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs title="Slideshow from Picasa Media RSS Feed"
+<ModulePrefs title="Slideshow from Picasa Media RSS Feed. Display just pictures"
 title_url="http://sites.google.com/site/annuairevin/"
 height="300"
 width="220"
 scrolling="false"
-directory_title="Media RSS Feed Slideshow. Slideshow from Picasa."
-description="Media RSS Feed Slideshow. Simple Slideshow (without title of Feed and without title of pictures). Can display the original picture. Can define display and transition time. Display jpg, gif and png pictures. Random order available."
+directory_title="Media RSS Feed Slideshow. Slideshow from Picasa. Display just pictures."
+description="Media RSS Feed Slideshow. Simple Slideshow (without title of Feed and without title of pictures), without border. Can display the original picture. Can define display and transition time. Display jpg, gif and png pictures. Random order available."
 screenshot="http://www.liens-du-vin.ch/_pic062/picasa-slideshow-screen.png"
 thumbnail="http://www.liens-du-vin.ch/_pic062/picasa-slideshow-thumb.png"
 author="Philippe Chappuis"
@@ -22,7 +22,7 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 
 </ModulePrefs>
 
-<UserPref name="FEED" display_name="Feed to display" required="true" default_value="https://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&amp;kind=photo&amp;hl=en" />
+<UserPref name="FEED" display_name="Feed to display" required="true" default_value="http://picasaweb.google.fr/data/feed/base/user/philippe.chappuis/albumid/5297196325809923457?alt=rss&amp;kind=photo&amp;hl=en" />
 
 <UserPref name="PWH" display_name="Width of pictures" required="true" default_value="280" />
 <UserPref name="PHT" display_name="Height of pictures" required="true" default_value="190" />
@@ -34,7 +34,6 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 <UserPref name="NAB" display_name="Display Navigation Bar (Yes - No)" required="false" />
   
 <UserPref name="SCOL" display_name="Background of Slide" required="true" default_value="#c3d9ff" />
-<UserPref name="BCOL" display_name="Color of Border" required="true" default_value="#f00" />
 <UserPref name="CCOL" display_name="Background of Container" required="true" default_value="#d1dae3" />
 
 <Content type="html"><![CDATA[
@@ -54,8 +53,7 @@ width: __UP_PWH__px;
 height: __UP_PHT__px;
 margin: 0;
 background-color: __UP_SCOL__;
-border: 2px solid __UP_BCOL__;
-padding: 4px;
+padding: 0px;
 }
 
 #slide_box a img
@@ -206,6 +204,7 @@ return(thumb);
   
 google.load("feeds", "1");
 google.setOnLoadCallback(load_feed);
+
 _IG_Analytics("UA-442758-35", "/gg_slide");  
 
 </script>
