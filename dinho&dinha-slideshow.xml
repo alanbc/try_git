@@ -34,7 +34,7 @@ author_quote="A chief is a man who assumes responsibility. He says &quot;I was b
 <UserPref name="NAB" display_name="Display Navigation Bar (Yes - No)" required="false" />
   
 <UserPref name="SCOL" display_name="Background of Slide" required="true" default_value="#000000" />
-<UserPref name="CCOL" display_name="Background of Container" required="true" default_value="#d1dae3" />
+<UserPref name="CCOL" display_name="Background of Container" required="true" default_value="#000000" />
 
 <Content type="html"><![CDATA[
 <script src="https://www.google.com/jsapi" type="text/javascript"></script>
