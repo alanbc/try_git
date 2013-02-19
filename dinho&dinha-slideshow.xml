@@ -56,9 +56,16 @@ background-color: __UP_SCOL__;
 padding: 0px;
 }
 
-#slide_box a img
+#slide_box a
 {
 border: 0;
+}
+
+#slide_box img
+{
+border: 0;
+width: 100%;
+height: 100%;
 }
 
 #feed_title
