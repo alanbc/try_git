@@ -4,7 +4,7 @@
   <version>1.0.0.0</version>
   <hosts>
     <host name="sidebar">
-      <base type="HTML" apiVersion="1.0.0" src="hello.html" />
+      <base type="HTML" apiVersion="1.0.0" src="dinho&dinha-slideshow.html" />
       <permissions>Full</permissions>
       <platform minPlatformVersion="1.0" />
     </host>
