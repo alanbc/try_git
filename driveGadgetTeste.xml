@@ -7,7 +7,7 @@
         Loading...</div> 
 
     <script type="text/javascript">
-	alert("teste");
+	//alert("teste");
 	document.getElementById("slideshow").innerHTML = "teste 2";
     </script>  
     
