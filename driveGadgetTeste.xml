@@ -3,13 +3,14 @@
   <ModulePrefs title="hello world example" />
   <Content type="html">
     <![CDATA[
+    <div id="slideshow" class="slide">
+        Loading...</div> 
+
     <script type="text/javascript">
 	alert("teste");
 	document.getElementById("slideshow").innerHTML = "teste 2";
     </script>  
-
-    <div id="slideshow" class="slide">
-        Loading...</div> 
+    
     ]]>
   </Content>
 </Module>
