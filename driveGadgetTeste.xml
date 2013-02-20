@@ -15,7 +15,7 @@
 			font-family:tahoma arial;
 	    	}
 	    	.main input{
-	    		font-size:12px;	
+	    		font-size:8px;	
 	    		font-family:tahoma arial;
 	    	}	    	
 	    </style>
@@ -25,7 +25,7 @@
 	    <div id="container" class="main"">
 	        <label>
 	            Name:</label>
-	        <input type="text" ng-model="yourName" placeholder="Enter a name here" size="10">
+	        <input type="text" ng-model="yourName" placeholder="Enter a name here" size="13">
 	        <hr>
 	        <h1>
 	            Hello {{yourName}}!</h1>
