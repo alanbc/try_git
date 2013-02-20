@@ -7,8 +7,9 @@
         Loading...</div> 
 
     <script type="text/javascript">
-	//alert("teste");
-	document.getElementById("slideshow").innerHTML = "teste 2";
+	  //alert("teste");
+	  //document.getElementById("slideshow").innerHTML = "teste 2";	  
+	  document.getElementById("slideshow").innerHTML = Session.getActiveUser().getEmail();	  	  
     </script>  
     
     ]]>
