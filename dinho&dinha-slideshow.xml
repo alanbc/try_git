@@ -22,7 +22,7 @@
     
     <script type="text/javascript">
         function loadfeed() {
-            alert("teste");
+            //alert("teste");
 
             var feed_input = "https://picasaweb.google.com/data/feed/base/user/101841940641544645465/albumid/5832969112428087137?alt=rss&kind=photo&authkey=Gv1sRgCNqE9_nJh-iikQE&hl=pt_BR";
             var options = {
@@ -30,13 +30,10 @@
                 numResults: 200,
                 fullControlPanelSmallIcons: false,
                 pauseOnHover: false,
-                scaleImages:true
-                /*transitionCallback: myTransitionHandler*/
+                scaleImages:true                
             };
-            var ss = new GFslideShow(feed_input, "slideshow", options)
-        }       
-
-	alert("teste");
+            var ss = new GFslideShow(feed_input, "slideshow", options);
+        }       	
         google.load("feeds", "1");
         google.setOnLoadCallback(loadfeed);       
     </script>  
