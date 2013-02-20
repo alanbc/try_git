@@ -26,7 +26,7 @@
             var options = {
                 fullControlPanel: false,                
                 fullControlPanelSmallIcons: false,
-                pauseOnHover: false,
+                pauseOnHover: true,
                 scaleImages:true                
             };
             var ss = new GFslideShow(feed_input, "slideshow", options);
