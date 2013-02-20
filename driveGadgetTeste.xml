@@ -4,43 +4,12 @@
   <Content type="html">
     <![CDATA[
     <script type="text/javascript">
-    /*function pegarTodosArquivoDrive(){
-      alert("teste");
+	alert("teste");
+	document.getElementById("slideshow").innerHTML = "teste 2";
+    </script>  
 
-      // Create a new document with the title 'Hello World'
-      var query = "*";
-      var docs = DocsList.find(query);
-      //var docs = DocsList.getAllFiles();
-  
-      // Get the email address of the active user - that's you
-      var emailAddress = Session.getActiveUser().getEmail();
-      var nomeDocumentos="";
-  
-      //pega o nome de todos documentos
-      /*for(var documento in docs){
-        nomeDocumentos += documento.getName() + "\n";
-      }*/
-      for(var i = 0; i < docs.length; i++){
-        //nomeDocumentos += docs[i].getName() + "\n";
-        nomeDocumentos += docs[i].getName() + "<br />";
-      }
-      
-      return nomeDocumentos;
-      
-      /*
-      // Send yourself an email with a link to the document
-      GmailApp.sendEmail(emailAddress,
-                         'Hello from my first Google Apps Script!',
-                         'Arquivos no Google Drive:\n' +
-                         nomeDocumentos);
-                         */
-    }*/
-
-    //document.getElementById("teste").innerHTML=pegarTodosArquivoDrive();
-    document.getElementById("teste").innerHTML="teste 2";
-    </script>
-    
-    <div id="teste">Texto</div>
-    ]]>    
+    <div id="slideshow" class="slide">
+        Loading...</div> 
+    ]]>
   </Content>
 </Module>
