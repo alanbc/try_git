@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <gadget>
-  <name>Hello</name>
+  <name>D&D Gad - SlideShow </name>
   <version>1.0.0.0</version>
   <hosts>
     <host name="sidebar">
