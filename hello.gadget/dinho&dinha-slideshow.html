@@ -1,1 +1,53 @@
-novo
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=Unicode" />
+    </head>    
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script src="http://www.google.com/uds/solutions/slideshow/gfslideshow.js" type="text/javascript"></script>
+    <style type="text/css">
+  #gadgetContent{		
+                /*width: 350px;
+		height: 375px;*/
+		padding: 0px;
+		color: #dddddd;
+		background-color: #000000;                
+	}
+
+	body{
+                /*width: 500px;
+		height: 375px;*/		
+		width: 233px;
+		height: 175px;		
+                padding: 0px;
+                background-color: #000000;
+                margin:0px;                
+	}
+	#gadgetContent img
+	{
+                border: none;                
+        }    
+    </style>
+    
+    <body >	
+        <div id="gadgetContent">
+        </div>
+
+	<script type="text/javascript">
+	function loadfeed() {
+            //alert("teste");
+
+            var feed_input = "https://picasaweb.google.com/data/feed/base/user/101841940641544645465/albumid/5832969112428087137?alt=rss&kind=photo&authkey=Gv1sRgCNqE9_nJh-iikQE&hl=pt_BR";
+            var options = {
+                fullControlPanel: false,
+                numResults: 200,
+                fullControlPanelSmallIcons: false,
+                pauseOnHover: false,
+                scaleImages:true                
+            };
+            var ss = new GFslideShow(feed_input, "gadgetContent", options);
+        }       	
+        google.load("feeds", "1");
+        google.setOnLoadCallback(loadfeed); 
+	</script>
+    </body>
+</html>
