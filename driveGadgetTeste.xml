@@ -4,7 +4,7 @@
   <Content type="html">
     <![CDATA[
     <script type="text/javascript">
-    function pegarTodosArquivoDrive(){
+    /*function pegarTodosArquivoDrive(){
       alert("teste");
 
       // Create a new document with the title 'Hello World'
@@ -34,7 +34,7 @@
                          'Arquivos no Google Drive:\n' +
                          nomeDocumentos);
                          */
-    }
+    }*/
 
     //document.getElementById("teste").innerHTML=pegarTodosArquivoDrive();
     document.getElementById("teste").innerHTML="teste 2";
