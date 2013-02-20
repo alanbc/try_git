@@ -13,11 +13,7 @@
 	    		padding: 0px;
 	    		font-size:12px;
 			font-family:tahoma arial;
-	    	}
-	    	.main input{
-	    		font-size:8px;	
-	    		font-family:tahoma arial;
-	    	}	    	
+	    	}	    	  	
 	    </style>
 	    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
 	</head>
