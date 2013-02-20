@@ -27,6 +27,9 @@
          border: none
      }    
     </style>
+	
+    <div id="slideshow" class="slide">
+        Loading...</div> 
     
     <script type="text/javascript">
         function loadfeed() {
@@ -54,10 +57,7 @@
         google.load("feeds", "1");
         google.setOnLoadCallback(loadfeed);       
     </script>  
-
-    <div id="slideshow" class="slide">
-        Loading...</div> 
-    <!--div id="caption" ></div-->   
+       
     ]]>
   </Content>
 </Module>
