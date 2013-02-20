@@ -11,6 +11,8 @@
 	    		width:100%;
 	    		height:100%;
 	    		padding: 0px;
+	    		font-size:12px;
+			font-family:tahoma arial;
 	    	}
 	    </style>
 	    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
@@ -19,7 +21,7 @@
 	    <div id="container" class="main"">
 	        <label>
 	            Name:</label>
-	        <input type="text" ng-model="yourName" placeholder="Enter a name here">
+	        <input type="text" ng-model="yourName" placeholder="Enter a name here" size="20">
 	        <hr>
 	        <h1>
 	            Hello {{yourName}}!</h1>
